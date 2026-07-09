@@ -218,14 +218,3 @@ __marimo__/
 .streamlit/secrets.toml
 venv
 
-# Vector store
-vector_store/
-
-# Images
-assets/*.png
-
-# Environment
-.env
-venv/
-__pycache__/
-*.pyc

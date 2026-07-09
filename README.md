@@ -1,16 +1,4 @@
----
-title: YouTube ChatBot
-emoji: 🎥
-colorFrom: blue
-colorTo: purple
-sdk: streamlit
-sdk_version: "1.45.1"
-python_version: "3.11"
-app_file: app.py
-pinned: false
----
 
-# YouTube ChatBot
 
 Chat with any YouTube video using RAG, Google Gemini, LangChain, and FAISS.
 <<<<<<< HEAD
