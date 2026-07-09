@@ -1,0 +1,57 @@
+# ==============================================================================
+# .dockerignore - keep build context small and secrets out of the image
+# ==============================================================================
+
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Version control ---
+.git
+.gitignore
+.gitattributes
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+build/
+dist/
+venv/
+.venv/
+env/
+ENV/
+
+# --- Virtual env (project uses "venv/") ---
+venv/
+
+# --- Runtime-generated data (rebuilt inside the container) ---
+vector_store/
+cache/
+logs/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Tests / docs / misc ---
+test.py
+tests/
+*.md
+!README.md
+assets/*.gif
+
+# --- Docker itself ---
+Dockerfile
+.dockerignore
+docker-compose.yml
