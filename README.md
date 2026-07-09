@@ -1,7 +1,3 @@
-
-
-Chat with any YouTube video using RAG, Google Gemini, LangChain, and FAISS.
-<<<<<<< HEAD
 # 🎥 YouTube Chatbot using RAG (Retrieval-Augmented Generation)
 
 <p align="center">
@@ -370,16 +366,3 @@ LinkedIn: https://linkedin.com/in/shravan-kumar-pandey-309786309
 
 # ⭐ If you found this project useful, please consider giving it a star on GitHub.
 =======
----
-title: YouTube ChatBot
-emoji: 🦀
-colorFrom: yellow
-colorTo: yellow
-sdk: static
-pinned: false
-license: apache-2.0
-short_description: Chat with any YouTube video using RAG.
----
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
->>>>>>> 2ad195f099fb83630d151d48b52e421fc1c1e8bc
